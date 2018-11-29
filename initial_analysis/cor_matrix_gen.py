@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def load_data(data_file):
-    data_dir = '../raw_data/'  + data_file
+    data_dir = '../new_stats/'  + data_file
     match_data = pandas.read_csv(data_dir)
 
     return match_data

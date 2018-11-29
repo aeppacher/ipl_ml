@@ -4,9 +4,10 @@ def main():
     #stats_team
     print "generating coorelation matricies and heatmaps"
 
+    gen.generate("indices_match.csv", "indices_match")
+    gen.generate("indices_team.csv", "indices_team")
+    gen.generate("overall_indices.csv", "overall_indices")
     gen.generate("stats_team.csv", "stats_team")
-    gen.generate("matches.csv", "matches")
-    gen.generate("deliveries.csv", "deliveries")
 
     print "generation complete"
 
